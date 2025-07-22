@@ -34,3 +34,6 @@ tem_pet(carla, papagaio).
 % Quem = ana ;
 % Quem = carla ;
 % Quem = joao.
+
+?- gosta(X, pizza), tem_pet(X, cachorro).
+% X = ana.
